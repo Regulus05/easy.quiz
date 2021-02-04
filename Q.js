@@ -75,7 +75,7 @@ const clickHandler = (e) => {
         alert('正解(^^♪');
         score++;
     } else {
-        alert('ざんね～ん( ﾟДﾟ)');
+        alert('はい、間違い…( *´艸｀)ﾌﾟｯ');
     };
 
     quizIndex++;
@@ -83,7 +83,7 @@ const clickHandler = (e) => {
     if(quizIndex < quizLen){
         setupQuiz();
     } else {
-        alert('終了！');
+        alert('終了！おつかれちゃ～ん(*^^)v');
         $ques.textContent = 'あなたは'+ quizLen +'問中【'+ score +'問】正解でした★';
         if(score === quizLen){
             $button[0].textContent = '全';
