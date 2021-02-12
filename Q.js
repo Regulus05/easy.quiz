@@ -54,6 +54,7 @@ const quiz = [
 
 const $ques = document.getElementById('js-ques');
 const $button = document.getElementsByTagName('button');
+const $return = document.getElementById('js-return');
 const buttonLen = $button.length;
 const quizLen = quiz.length;
 let quizIndex = 0;
