@@ -104,6 +104,10 @@ const clickHandler = (e) => {
                 $button[3].textContent = 'から！';
             };
         };
+        $return.style.display = 'block';
+        $return.addEventListener('click' , () => {
+            location.reload();
+        });
     };
 };
 
